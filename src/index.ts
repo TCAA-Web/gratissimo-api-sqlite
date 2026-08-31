@@ -14,6 +14,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import path from "path";
 import { regionRoutes } from "./routes/regionRoutes";
+import { testimonyRoutes } from "./routes/testimonyRoutes";
 
 // Load environment variables from .env file
 dotenv.config();
@@ -47,6 +48,7 @@ app.use("/api", newsletterSubscriberRoutes);
 app.use("/api", authRoutes);
 app.use("/api", workTypeRoutes);
 app.use("/api", regionRoutes);
+app.use("/api", testimonyRoutes);
 
 // Handle all errors
 app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
