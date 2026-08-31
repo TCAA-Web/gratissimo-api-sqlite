@@ -1,0 +1,7 @@
+model UserJobFavorite {
+  id           Int        @id @default(autoincrement())
+  userId       Int
+  user         User       @relation(fields: [userId], references: [id])
+  jobListingId Int
+  jobListing   JobListing @relation(fields: [jobListingId], references: [id])
+}
