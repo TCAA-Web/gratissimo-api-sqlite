@@ -66,6 +66,11 @@ Nu skulle serveren gerne starte på: `localhost:4000`
 
 ---
 
+## API Dokumentation
+
+Dokumentation til API´et og alle tilhørende routes findes her:
+([Postman Dokumentaion](https://documenter.getpostman.com/view/31531123/2sBYAuTBzo))
+
 ## Projektets skruktur
 
 ```
