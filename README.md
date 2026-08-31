@@ -5,6 +5,7 @@
 ## Beskrivelse
 
 **Webudvikler Uddannelsen - TechCollege 2026**
+
 Dette API er lavet som datagrundlag til svendeprøve opgaven "Gratissimo".
 Følg instrukserne herunder for at installere og opsætte API´et lokalt på din maskine.
 
@@ -15,7 +16,7 @@ Følg instrukserne herunder for at installere og opsætte API´et lokalt på din
 Clone repositoriet og installer afhængigheder med NPM:
 
 ```bash
-git clone <your-repo-url>
+git clone <repo-url>
 ```
 
 Naviger til roden af projektet og skriv i terminalen:
