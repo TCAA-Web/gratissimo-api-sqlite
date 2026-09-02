@@ -21,7 +21,10 @@ export class ArticleController {
   createArticle = async (req: Request, res: Response) => {
     const data = { ...req.body };
     if (!data.title || !data.content)
-      throw new AppError(400, "Missing required fields");
+      throw new AppError(
+        400,
+        "Missing required fields - 'title' or 'content' missing",
+      );
 
     const item = await prisma.article.create({ data });
     res.status(201).json(item);

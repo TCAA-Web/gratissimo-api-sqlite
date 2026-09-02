@@ -22,6 +22,12 @@ export class NewsletterSubscriberController {
 
   createNewsletterSubscriber = async (req: Request, res: Response) => {
     const data = { ...req.body };
+    const existing = await prisma.newsletterSubscriber.findUnique({
+      where: { email: data.email },
+    });
+    if (existing) {
+      throw new AppError(400, "Email already exists");
+    }
     const item = await prisma.newsletterSubscriber.create({ data });
     res.status(201).json(item);
   };

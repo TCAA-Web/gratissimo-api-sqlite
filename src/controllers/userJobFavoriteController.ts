@@ -5,15 +5,40 @@ import { AppError } from "../utils/AppError";
 
 export class UserJobFavoriteController {
   getAllUserJobFavorites = async (req: Request, res: Response) => {
-    const items = await prisma.userJobFavorite.findMany();
+    const user = req.user ?? null;
+    if (!user) {
+      throw new AppError(404, "No user found");
+    }
+    const items = await prisma.userJobFavorite.findMany({
+      where: { user },
+      include: {
+        jobListing: {
+          include: { region: true, workType: true, jobCategory: true },
+        },
+      },
+    });
+    if (!items) {
+      throw new AppError(404, "No user favorites found");
+    }
     res.status(200).json(items);
   };
 
   getUserJobFavoriteById = async (req: Request, res: Response) => {
     const id = parseId(req.params.id);
+    const user = req.user ?? null;
+    if (!user) {
+      throw new AppError(404, "No user favorites");
+    }
     if (!id) throw new AppError(400, "Invalid user job favorite ID");
 
-    const item = await prisma.userJobFavorite.findUnique({ where: { id } });
+    const item = await prisma.userJobFavorite.findUnique({
+      where: { id, user },
+      include: {
+        jobListing: {
+          include: { region: true, workType: true, jobCategory: true },
+        },
+      },
+    });
     if (!item) throw new AppError(404, "User job favorite not found");
     res.status(200).json(item);
   };

@@ -13,7 +13,14 @@ export class JobCategoryController {
     const id = parseId(req.params.id);
     if (!id) throw new AppError(400, "Invalid job category ID");
 
-    const item = await prisma.jobCategory.findUnique({ where: { id } });
+    const item = await prisma.jobCategory.findUnique({
+      where: { id },
+      include: {
+        jobListings: {
+          include: { region: true, workType: true, jobCategory: true },
+        },
+      },
+    });
     if (!item) throw new AppError(404, "Job category not found");
     res.status(200).json(item);
   };

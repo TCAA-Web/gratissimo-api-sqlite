@@ -6,7 +6,7 @@ import { AppError } from "../utils/AppError";
 export class JobListingController {
   getAllJobListings = async (req: Request, res: Response) => {
     const items = await prisma.jobListing.findMany({
-      include: { region: true, workType: true },
+      include: { region: true, workType: true, jobCategory: true },
     });
     res.status(200).json(items);
   };
@@ -17,7 +17,7 @@ export class JobListingController {
 
     const item = await prisma.jobListing.findUnique({
       where: { id },
-      include: { region: true, workType: true },
+      include: { region: true, workType: true, jobCategory: true },
     });
     if (!item) throw new AppError(404, "Job listing not found");
     res.status(200).json(item);
