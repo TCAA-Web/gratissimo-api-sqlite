@@ -75,7 +75,7 @@ export class UserController {
     const user = req.user;
 
     if (!user) {
-      throw new AppError(400, "You need to be signed in to update user");
+      throw new AppError(400, "You need to be signed in to delete user");
     }
     const id = user?.id;
     if (!id) throw new AppError(400, "Invalid user ID");

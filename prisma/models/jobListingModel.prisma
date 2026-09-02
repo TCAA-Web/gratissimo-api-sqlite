@@ -11,7 +11,7 @@ model JobListing {
   regionId        Int
   region          Region            @relation(fields: [regionId], references: [id])
   userId          Int
-  user            User              @relation(fields: [userId], references: [id])
+  user            User              @relation(fields: [userId], references: [id], onDelete: Cascade)
   jobCategoryId   Int
   jobCategory     JobCategory       @relation(fields: [jobCategoryId], references: [id])
   favorites       UserJobFavorite[]
