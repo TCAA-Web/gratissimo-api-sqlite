@@ -1,10 +1,11 @@
-import { prisma } from "../index";
+import { prisma } from "../lib/prisma";
 
 export async function userJobFavoriteSeed() {
   const defaultFavorites = [
     { userId: 1, jobListingId: 2 },
     { userId: 2, jobListingId: 1 },
     { userId: 3, jobListingId: 3 },
+    { userId: 1, jobListingId: 5 },
   ];
 
   for (const favorite of defaultFavorites) {

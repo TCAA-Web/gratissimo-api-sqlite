@@ -1,5 +1,5 @@
 import bcrypt from "bcrypt";
-import { prisma } from "../index";
+import { prisma } from "../lib/prisma";
 
 const SALT_ROUNDS = 10;
 
@@ -7,7 +7,7 @@ export async function userSeed() {
   const defaultUsers = [
     {
       firstname: "John",
-      lastname: "Doe",
+      lastname: "Due",
       password: "password",
       email: "info@webudvikler.dk",
       phone: 12345678,

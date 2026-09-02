@@ -1,6 +1,5 @@
-import { prisma } from "../index";
+import { prisma } from "../lib/prisma";
 import { Request, Response } from "express";
-import { parseId } from "../utils/parseId";
 import { AppError } from "../utils/AppError";
 import { Prisma } from "../../generated/prisma/client";
 import bcrypt from "bcrypt";

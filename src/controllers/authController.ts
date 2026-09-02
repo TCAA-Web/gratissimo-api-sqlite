@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from "express";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
-import { prisma } from "../index";
+import { prisma } from "../lib/prisma";
 import { AppError } from "../utils/AppError";
 
 declare global {

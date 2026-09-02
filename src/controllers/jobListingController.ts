@@ -1,4 +1,4 @@
-import { prisma } from "../index";
+import { prisma } from "../lib/prisma";
 import { Request, Response } from "express";
 import { parseId } from "../utils/parseId";
 import { AppError } from "../utils/AppError";
@@ -35,10 +35,14 @@ export class JobListingController {
     const jobCategoryId = parseInt(data.jobCategoryId);
     const workTypeId = parseInt(data.workTypeId);
 
-    if (workHome !== "Delvist" && workHome !== "Ja" && workHome !== "Nej") {
+    if (
+      workHome !== "On-site" &&
+      workHome !== "Remote" &&
+      workHome !== "Hybrid"
+    ) {
       throw new AppError(
         405,
-        'workHome must be one of: "Delvist", "Ja" or "Nej',
+        'workHome must be one of: "On-site", "Remote" or "Hybrid',
       );
     }
     const item = await prisma.jobListing.create({

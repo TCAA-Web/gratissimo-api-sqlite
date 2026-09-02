@@ -1,12 +1,16 @@
-import { prisma } from "../index";
+import { prisma } from "../lib/prisma";
 
 export async function jobCategorySeed() {
   const defaultJobCategories = [
-    { name: "IT & Software" },
-    { name: "Marketing & Communication" },
-    { name: "Finance & Accounting" },
-    { name: "Engineering" },
-    { name: "Customer Service" },
+    { name: "Undervisning" },
+    { name: "Teknologi" },
+    { name: "Kultur" },
+    { name: "Håndværk" },
+    { name: "Industri" },
+    { name: "Service" },
+    { name: "Kommunikation" },
+    { name: "Kontor" },
+    { name: "Øvrige" },
   ];
 
   for (const category of defaultJobCategories) {

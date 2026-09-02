@@ -1,7 +1,6 @@
 import express from "express";
 import { Request, Response, NextFunction } from "express";
-import { PrismaClient } from "../generated/prisma/client";
-import { PrismaBetterSqlite3 } from "@prisma/adapter-better-sqlite3";
+
 import { userRoutes } from "./routes/userRoutes";
 import { jobCategoryRoutes } from "./routes/jobCategoryRoutes";
 import { jobListingRoutes } from "./routes/jobListingRoutes";
@@ -18,16 +17,6 @@ import { testimonyRoutes } from "./routes/testimonyRoutes";
 
 // Load environment variables from .env file
 dotenv.config();
-
-// Set up adapter for better-sqlite3
-const adapter = new PrismaBetterSqlite3({
-  url: process.env.DATABASE_URL || "file:./dev.db",
-});
-
-// Initialize Prisma Client
-export const prisma = new PrismaClient({
-  adapter,
-});
 
 // Set up Express server
 const app = express();
@@ -64,9 +53,3 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
-
-// Add Region - workHome - workType
-
-// Regions: Nordjylland, Midtjylland, Sønderjylland, Fyn, Sjælland, Bornholm
-// workHome: Hjemmearbejde, On-site, Delvist
-// workType: Fuldtid, Deltid, Flex

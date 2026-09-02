@@ -1,4 +1,4 @@
-import { prisma } from "../index";
+import { prisma } from "../lib/prisma";
 
 export async function regionSeed() {
   const defaultRegions = [

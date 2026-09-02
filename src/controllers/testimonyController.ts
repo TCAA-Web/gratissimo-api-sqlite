@@ -1,4 +1,4 @@
-import { prisma } from "../index";
+import { prisma } from "../lib/prisma";
 import { Request, Response } from "express";
 
 export class TestimonyController {
