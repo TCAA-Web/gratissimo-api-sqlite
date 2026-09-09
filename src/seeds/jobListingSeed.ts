@@ -15,6 +15,7 @@ export async function jobListingSeed() {
       jobCategoryId: 1,
       regionId: 5,
       workTypeId: 1,
+      createdAt: "2026-03-23T17:56:25.148+00:00",
     },
     {
       title: "Frivillig underviser i dansk",
@@ -29,6 +30,7 @@ export async function jobListingSeed() {
       jobCategoryId: 1,
       regionId: 2,
       workTypeId: 1,
+      createdAt: "2026-08-14T15:53:35.555+00:00",
     },
     {
       title: "Frivillig matematikmentor",
@@ -43,6 +45,7 @@ export async function jobListingSeed() {
       jobCategoryId: 1,
       regionId: 1,
       workTypeId: 3,
+      createdAt: "2026-04-04T13:13:54.825+00:00",
     },
     {
       title: "Frivillig lektiehjælper i engelsk",
@@ -57,6 +60,7 @@ export async function jobListingSeed() {
       jobCategoryId: 1,
       regionId: 3,
       workTypeId: 1,
+      createdAt: "2026-03-12T22:18:43.053+00:00",
     },
     {
       title: "Frivillig mentor for unge",
@@ -71,6 +75,7 @@ export async function jobListingSeed() {
       jobCategoryId: 1,
       regionId: 4,
       workTypeId: 3,
+      createdAt: "2026-07-25T23:36:02.920+00:00",
     },
     {
       title: "Frivillig lektiehjælper online",
@@ -85,6 +90,7 @@ export async function jobListingSeed() {
       jobCategoryId: 1,
       regionId: 5,
       workTypeId: 3,
+      createdAt: "2026-03-10T19:17:16.062+00:00",
     },
     {
       title: "Frivillig læsetræner for børn",
@@ -99,6 +105,7 @@ export async function jobListingSeed() {
       jobCategoryId: 1,
       regionId: 5,
       workTypeId: 1,
+      createdAt: "2026-07-26T03:07:06.023+00:00",
     },
     {
       title: "Frivillig naturformidler for skoleklasser",
@@ -113,6 +120,7 @@ export async function jobListingSeed() {
       jobCategoryId: 1,
       regionId: 1,
       workTypeId: 3,
+      createdAt: "2026-08-09T23:22:19.094+00:00",
     },
     {
       title: "Frivillig sprogmakker for unge",
@@ -127,6 +135,7 @@ export async function jobListingSeed() {
       jobCategoryId: 1,
       regionId: 2,
       workTypeId: 3,
+      createdAt: "2026-06-14T08:11:10.402+00:00",
     },
     {
       title: "Frivillig lektiecafé-koordinator",
@@ -141,6 +150,7 @@ export async function jobListingSeed() {
       jobCategoryId: 1,
       regionId: 5,
       workTypeId: 1,
+      createdAt: "2026-05-27T12:05:50.565+00:00",
     },
     {
       title: "Frivillig underviser i computerfærdigheder",
@@ -155,6 +165,7 @@ export async function jobListingSeed() {
       jobCategoryId: 1,
       regionId: 4,
       workTypeId: 1,
+      createdAt: "2026-09-07T10:31:05.219+00:00",
     },
     {
       title: "Frivillig studiestøtte for unge",
@@ -169,6 +180,7 @@ export async function jobListingSeed() {
       jobCategoryId: 1,
       regionId: 1,
       workTypeId: 3,
+      createdAt: "2026-04-11T14:13:48.378+00:00",
     },
     {
       title: "Frivillig webudvikler",
@@ -183,6 +195,7 @@ export async function jobListingSeed() {
       jobCategoryId: 2,
       regionId: 5,
       workTypeId: 3,
+      createdAt: "2026-05-23T01:20:21.020+00:00",
     },
     {
       title: "IT-supporter for frivilligorganisation",
@@ -197,6 +210,7 @@ export async function jobListingSeed() {
       jobCategoryId: 2,
       regionId: 4,
       workTypeId: 1,
+      createdAt: "2026-08-15T02:07:12.858+00:00",
     },
     {
       title: "Frivillig dataansvarlig",
@@ -211,6 +225,7 @@ export async function jobListingSeed() {
       jobCategoryId: 2,
       regionId: 2,
       workTypeId: 3,
+      createdAt: "2026-04-19T02:39:56.288+00:00",
     },
     {
       title: "Frivillig WordPress-hjælper",
@@ -225,6 +240,7 @@ export async function jobListingSeed() {
       jobCategoryId: 2,
       regionId: 5,
       workTypeId: 3,
+      createdAt: "2026-06-19T17:32:35.293+00:00",
     },
     {
       title: "Frivillig UX-hjælper",
@@ -239,6 +255,7 @@ export async function jobListingSeed() {
       jobCategoryId: 2,
       regionId: 2,
       workTypeId: 3,
+      createdAt: "2026-08-26T00:46:46.714+00:00",
     },
     {
       title: "Frivillig cybersikkerhedsvejleder",
@@ -253,6 +270,7 @@ export async function jobListingSeed() {
       jobCategoryId: 2,
       regionId: 1,
       workTypeId: 3,
+      createdAt: "2026-07-05T11:03:15.179+00:00",
     },
     {
       title: "Frivillig teknisk projektassistent",
@@ -267,6 +285,7 @@ export async function jobListingSeed() {
       jobCategoryId: 2,
       regionId: 5,
       workTypeId: 1,
+      createdAt: "2026-05-22T22:53:33.920+00:00",
     },
     {
       title: "Frivillig hjælp til digitale kurser",
@@ -281,6 +300,7 @@ export async function jobListingSeed() {
       jobCategoryId: 2,
       regionId: 4,
       workTypeId: 1,
+      createdAt: "2026-04-28T17:00:23.213+00:00",
     },
     {
       title: "Frivillig app-tester",
@@ -295,6 +315,7 @@ export async function jobListingSeed() {
       jobCategoryId: 2,
       regionId: 5,
       workTypeId: 3,
+      createdAt: "2026-09-05T21:33:24.958+00:00",
     },
     {
       title: "Frivillig frontendudvikler",
@@ -309,6 +330,7 @@ export async function jobListingSeed() {
       jobCategoryId: 2,
       regionId: 2,
       workTypeId: 2,
+      createdAt: "2026-09-03T12:47:30.706+00:00",
     },
     {
       title: "Frivillig teknisk dokumentationsskribent",
@@ -323,6 +345,7 @@ export async function jobListingSeed() {
       jobCategoryId: 2,
       regionId: 1,
       workTypeId: 3,
+      createdAt: "2026-06-17T20:49:45.738+00:00",
     },
     {
       title: "Frivillig IT-mentor for seniorer",
@@ -337,6 +360,7 @@ export async function jobListingSeed() {
       jobCategoryId: 2,
       regionId: 4,
       workTypeId: 1,
+      createdAt: "2026-08-07T01:24:08.352+00:00",
     },
     {
       title: "Frivillig systemadministrator",
@@ -351,6 +375,7 @@ export async function jobListingSeed() {
       jobCategoryId: 2,
       regionId: 1,
       workTypeId: 3,
+      createdAt: "2026-04-28T08:49:50.567+00:00",
     },
     {
       title: "Frivillig til digitalisering af forening",
@@ -365,6 +390,7 @@ export async function jobListingSeed() {
       jobCategoryId: 2,
       regionId: 5,
       workTypeId: 3,
+      createdAt: "2026-04-14T08:52:53.340+00:00",
     },
     {
       title: "Frivillig kulturvært på museum",
@@ -379,6 +405,7 @@ export async function jobListingSeed() {
       jobCategoryId: 3,
       regionId: 4,
       workTypeId: 1,
+      createdAt: "2026-03-22T16:40:11.864+00:00",
     },
     {
       title: "Frivillig til lokale koncerter",
@@ -393,6 +420,7 @@ export async function jobListingSeed() {
       jobCategoryId: 3,
       regionId: 1,
       workTypeId: 3,
+      createdAt: "2026-05-12T04:15:46.925+00:00",
     },
     {
       title: "Frivillig kreativ værkstedsassistent",
@@ -407,6 +435,7 @@ export async function jobListingSeed() {
       jobCategoryId: 3,
       regionId: 3,
       workTypeId: 1,
+      createdAt: "2026-07-13T06:33:13.359+00:00",
     },
     {
       title: "Frivillig teatermedhjælper",
@@ -421,6 +450,7 @@ export async function jobListingSeed() {
       jobCategoryId: 3,
       regionId: 2,
       workTypeId: 3,
+      createdAt: "2026-06-16T18:36:27.479+00:00",
     },
     {
       title: "Frivillig museumsformidler",
@@ -435,6 +465,7 @@ export async function jobListingSeed() {
       jobCategoryId: 3,
       regionId: 5,
       workTypeId: 1,
+      createdAt: "2026-08-22T20:17:19.584+00:00",
     },
     {
       title: "Frivillig musikarrangør",
@@ -449,6 +480,7 @@ export async function jobListingSeed() {
       jobCategoryId: 3,
       regionId: 4,
       workTypeId: 3,
+      createdAt: "2026-03-12T03:32:54.420+00:00",
     },
     {
       title: "Frivillig lokalhistoriker",
@@ -463,6 +495,7 @@ export async function jobListingSeed() {
       jobCategoryId: 3,
       regionId: 6,
       workTypeId: 3,
+      createdAt: "2026-08-17T04:35:43.172+00:00",
     },
     {
       title: "Frivillig biblioteksassistent",
@@ -477,6 +510,7 @@ export async function jobListingSeed() {
       jobCategoryId: 3,
       regionId: 2,
       workTypeId: 1,
+      createdAt: "2026-04-06T10:45:38.896+00:00",
     },
     {
       title: "Frivillig festivalmedhjælper",
@@ -491,6 +525,7 @@ export async function jobListingSeed() {
       jobCategoryId: 3,
       regionId: 4,
       workTypeId: 3,
+      createdAt: "2026-09-01T04:45:48.060+00:00",
     },
     {
       title: "Frivillig kunstudstillingsassistent",
@@ -505,6 +540,7 @@ export async function jobListingSeed() {
       jobCategoryId: 3,
       regionId: 2,
       workTypeId: 1,
+      createdAt: "2026-03-29T07:15:34.898+00:00",
     },
     {
       title: "Frivillig håndværker til renovering af fælleshus",
@@ -519,6 +555,7 @@ export async function jobListingSeed() {
       jobCategoryId: 4,
       regionId: 2,
       workTypeId: 1,
+      createdAt: "2026-03-17T17:12:20.129+00:00",
     },
     {
       title: "Frivillig cykelmekaniker",
@@ -533,6 +570,7 @@ export async function jobListingSeed() {
       jobCategoryId: 4,
       regionId: 1,
       workTypeId: 3,
+      createdAt: "2026-04-05T06:41:36.362+00:00",
     },
     {
       title: "Frivillig til have- og anlægsarbejde",
@@ -547,6 +585,7 @@ export async function jobListingSeed() {
       jobCategoryId: 4,
       regionId: 5,
       workTypeId: 1,
+      createdAt: "2026-06-20T02:55:55.998+00:00",
     },
     {
       title: "Frivillig maler til aktivitetscenter",
@@ -561,6 +600,7 @@ export async function jobListingSeed() {
       jobCategoryId: 4,
       regionId: 2,
       workTypeId: 3,
+      createdAt: "2026-04-02T11:02:44.677+00:00",
     },
     {
       title: "Frivillig møbelreparatør",
@@ -575,6 +615,7 @@ export async function jobListingSeed() {
       jobCategoryId: 4,
       regionId: 4,
       workTypeId: 3,
+      createdAt: "2026-08-19T10:45:08.506+00:00",
     },
     {
       title: "Frivillig træværkstedsassistent",
@@ -589,6 +630,7 @@ export async function jobListingSeed() {
       jobCategoryId: 4,
       regionId: 1,
       workTypeId: 1,
+      createdAt: "2026-07-12T21:04:07.934+00:00",
     },
     {
       title: "Frivillig reparatør på genbrugsstation",
@@ -603,6 +645,7 @@ export async function jobListingSeed() {
       jobCategoryId: 4,
       regionId: 3,
       workTypeId: 3,
+      createdAt: "2026-06-19T14:22:57.946+00:00",
     },
     {
       title: "Frivillig vedligeholdelsesassistent",
@@ -617,6 +660,7 @@ export async function jobListingSeed() {
       jobCategoryId: 4,
       regionId: 4,
       workTypeId: 1,
+      createdAt: "2026-03-30T06:11:21.416+00:00",
     },
     {
       title: "Frivillig syværkstedsassistent",
@@ -631,6 +675,7 @@ export async function jobListingSeed() {
       jobCategoryId: 4,
       regionId: 5,
       workTypeId: 3,
+      createdAt: "2026-05-13T03:51:29.825+00:00",
     },
     {
       title: "Frivillig cykelbygger",
@@ -645,6 +690,7 @@ export async function jobListingSeed() {
       jobCategoryId: 4,
       regionId: 2,
       workTypeId: 1,
+      createdAt: "2026-09-07T16:16:44.738+00:00",
     },
     {
       title: "Frivillig håndværksmentor",
@@ -659,6 +705,7 @@ export async function jobListingSeed() {
       jobCategoryId: 4,
       regionId: 1,
       workTypeId: 3,
+      createdAt: "2026-05-18T15:35:53.946+00:00",
     },
     {
       title: "Frivillig boligistandsætter",
@@ -673,6 +720,7 @@ export async function jobListingSeed() {
       jobCategoryId: 4,
       regionId: 4,
       workTypeId: 3,
+      createdAt: "2026-05-18T15:51:16.248+00:00",
     },
     {
       title: "Frivillig værktøjsansvarlig",
@@ -687,6 +735,7 @@ export async function jobListingSeed() {
       jobCategoryId: 4,
       regionId: 5,
       workTypeId: 1,
+      createdAt: "2026-06-06T14:48:19.144+00:00",
     },
     {
       title: "Frivillig lagerassistent",
@@ -701,6 +750,7 @@ export async function jobListingSeed() {
       jobCategoryId: 5,
       regionId: 2,
       workTypeId: 1,
+      createdAt: "2026-05-03T19:30:22.429+00:00",
     },
     {
       title: "Frivillig produktionshjælper på genbrugscenter",
@@ -715,6 +765,7 @@ export async function jobListingSeed() {
       jobCategoryId: 5,
       regionId: 2,
       workTypeId: 3,
+      createdAt: "2026-06-22T07:26:14.603+00:00",
     },
     {
       title: "Frivillig værkstedsmedhjælper",
@@ -729,6 +780,7 @@ export async function jobListingSeed() {
       jobCategoryId: 5,
       regionId: 6,
       workTypeId: 1,
+      createdAt: "2026-08-19T23:59:47.477+00:00",
     },
     {
       title: "Frivillig sorteringsmedarbejder",
@@ -743,6 +795,7 @@ export async function jobListingSeed() {
       jobCategoryId: 5,
       regionId: 1,
       workTypeId: 3,
+      createdAt: "2026-04-23T12:12:19.681+00:00",
     },
     {
       title: "Frivillig pakkeassistent",
@@ -757,6 +810,7 @@ export async function jobListingSeed() {
       jobCategoryId: 5,
       regionId: 4,
       workTypeId: 1,
+      createdAt: "2026-05-11T02:15:26.083+00:00",
     },
     {
       title: "Frivillig reparationsmedarbejder",
@@ -771,6 +825,7 @@ export async function jobListingSeed() {
       jobCategoryId: 5,
       regionId: 5,
       workTypeId: 3,
+      createdAt: "2026-07-02T13:36:46.182+00:00",
     },
     {
       title: "Frivillig logistikassistent",
@@ -785,6 +840,7 @@ export async function jobListingSeed() {
       jobCategoryId: 5,
       regionId: 3,
       workTypeId: 3,
+      createdAt: "2026-04-24T21:06:31.691+00:00",
     },
     {
       title: "Frivillig lagerkoordinator",
@@ -799,6 +855,7 @@ export async function jobListingSeed() {
       jobCategoryId: 5,
       regionId: 2,
       workTypeId: 1,
+      createdAt: "2026-06-27T22:20:46.067+00:00",
     },
     {
       title: "Frivillig miljøsorterer",
@@ -813,6 +870,7 @@ export async function jobListingSeed() {
       jobCategoryId: 5,
       regionId: 4,
       workTypeId: 3,
+      createdAt: "2026-08-06T12:45:21.832+00:00",
     },
     {
       title: "Frivillig klargøringsmedarbejder",
@@ -827,6 +885,7 @@ export async function jobListingSeed() {
       jobCategoryId: 5,
       regionId: 2,
       workTypeId: 1,
+      createdAt: "2026-05-24T11:15:08.531+00:00",
     },
     {
       title: "Frivillig distributionshjælper",
@@ -841,6 +900,7 @@ export async function jobListingSeed() {
       jobCategoryId: 5,
       regionId: 5,
       workTypeId: 3,
+      createdAt: "2026-06-21T04:16:33.072+00:00",
     },
     {
       title: "Frivillig cafémedarbejder",
@@ -855,6 +915,7 @@ export async function jobListingSeed() {
       jobCategoryId: 6,
       regionId: 5,
       workTypeId: 1,
+      createdAt: "2026-05-28T22:58:45.034+00:00",
     },
     {
       title: "Frivillig besøgsven",
@@ -869,6 +930,7 @@ export async function jobListingSeed() {
       jobCategoryId: 6,
       regionId: 2,
       workTypeId: 3,
+      createdAt: "2026-06-19T03:11:32.345+00:00",
     },
     {
       title: "Frivillig hjælper ved lokale arrangementer",
@@ -883,6 +945,7 @@ export async function jobListingSeed() {
       jobCategoryId: 6,
       regionId: 4,
       workTypeId: 3,
+      createdAt: "2026-07-24T12:50:39.854+00:00",
     },
     {
       title: "Frivillig madudleverer",
@@ -897,6 +960,7 @@ export async function jobListingSeed() {
       jobCategoryId: 6,
       regionId: 1,
       workTypeId: 1,
+      createdAt: "2026-08-11T23:05:06.313+00:00",
     },
     {
       title: "Frivillig vært i fælleshus",
@@ -911,6 +975,7 @@ export async function jobListingSeed() {
       jobCategoryId: 6,
       regionId: 5,
       workTypeId: 3,
+      createdAt: "2026-08-02T21:45:21.223+00:00",
     },
     {
       title: "Frivillig telefonven",
@@ -925,6 +990,7 @@ export async function jobListingSeed() {
       jobCategoryId: 6,
       regionId: 4,
       workTypeId: 3,
+      createdAt: "2026-08-25T00:14:52.228+00:00",
     },
     {
       title: "Frivillig aktivitetsmedhjælper",
@@ -939,6 +1005,7 @@ export async function jobListingSeed() {
       jobCategoryId: 6,
       regionId: 2,
       workTypeId: 1,
+      createdAt: "2026-08-27T04:11:49.802+00:00",
     },
     {
       title: "Frivillig køkkenhjælper",
@@ -953,6 +1020,7 @@ export async function jobListingSeed() {
       jobCategoryId: 6,
       regionId: 3,
       workTypeId: 1,
+      createdAt: "2026-07-23T11:36:59.672+00:00",
     },
     {
       title: "Frivillig ledsager",
@@ -967,6 +1035,7 @@ export async function jobListingSeed() {
       jobCategoryId: 6,
       regionId: 2,
       workTypeId: 3,
+      createdAt: "2026-05-30T10:01:55.408+00:00",
     },
     {
       title: "Frivillig aktivitetsvært for ældre",
@@ -981,6 +1050,7 @@ export async function jobListingSeed() {
       jobCategoryId: 6,
       regionId: 5,
       workTypeId: 1,
+      createdAt: "2026-07-14T06:00:51.501+00:00",
     },
     {
       title: "Frivillig genbrugsbutiksmedarbejder",
@@ -995,6 +1065,7 @@ export async function jobListingSeed() {
       jobCategoryId: 6,
       regionId: 1,
       workTypeId: 1,
+      createdAt: "2026-06-23T14:32:39.493+00:00",
     },
     {
       title: "Frivillig velkomstvært",
@@ -1009,6 +1080,7 @@ export async function jobListingSeed() {
       jobCategoryId: 6,
       regionId: 4,
       workTypeId: 3,
+      createdAt: "2026-03-20T13:34:26.892+00:00",
     },
     {
       title: "Frivillig madchauffør",
@@ -1023,6 +1095,7 @@ export async function jobListingSeed() {
       jobCategoryId: 6,
       regionId: 5,
       workTypeId: 3,
+      createdAt: "2026-06-17T21:54:42.216+00:00",
     },
     {
       title: "Frivillig aktivitetsleder",
@@ -1037,6 +1110,7 @@ export async function jobListingSeed() {
       jobCategoryId: 6,
       regionId: 6,
       workTypeId: 3,
+      createdAt: "2026-05-05T21:37:56.879+00:00",
     },
     {
       title: "Frivillig cafévært",
@@ -1051,6 +1125,7 @@ export async function jobListingSeed() {
       jobCategoryId: 6,
       regionId: 2,
       workTypeId: 1,
+      createdAt: "2026-07-16T22:15:36.036+00:00",
     },
     {
       title: "Frivillig praktisk hjælper til sociale tilbud",
@@ -1065,6 +1140,7 @@ export async function jobListingSeed() {
       jobCategoryId: 6,
       regionId: 4,
       workTypeId: 3,
+      createdAt: "2026-04-24T18:23:58.681+00:00",
     },
     {
       title: "Frivillig kommunikationsmedarbejder",
@@ -1079,6 +1155,7 @@ export async function jobListingSeed() {
       jobCategoryId: 7,
       regionId: 5,
       workTypeId: 3,
+      createdAt: "2026-03-31T15:00:16.270+00:00",
     },
     {
       title: "Frivillig fotograf til sociale aktiviteter",
@@ -1093,6 +1170,7 @@ export async function jobListingSeed() {
       jobCategoryId: 7,
       regionId: 4,
       workTypeId: 3,
+      createdAt: "2026-04-18T09:52:35.100+00:00",
     },
     {
       title: "Frivillig SoMe-redaktør",
@@ -1107,6 +1185,7 @@ export async function jobListingSeed() {
       jobCategoryId: 7,
       regionId: 1,
       workTypeId: 3,
+      createdAt: "2026-06-16T00:39:48.646+00:00",
     },
     {
       title: "Frivillig tekstforfatter",
@@ -1121,6 +1200,7 @@ export async function jobListingSeed() {
       jobCategoryId: 7,
       regionId: 2,
       workTypeId: 3,
+      createdAt: "2026-04-06T01:15:39.712+00:00",
     },
     {
       title: "Frivillig nyhedsbrevredaktør",
@@ -1135,6 +1215,7 @@ export async function jobListingSeed() {
       jobCategoryId: 7,
       regionId: 5,
       workTypeId: 1,
+      createdAt: "2026-04-10T01:36:15.091+00:00",
     },
     {
       title: "Frivillig pressemedarbejder",
@@ -1149,6 +1230,7 @@ export async function jobListingSeed() {
       jobCategoryId: 7,
       regionId: 3,
       workTypeId: 3,
+      createdAt: "2026-04-19T10:12:33.230+00:00",
     },
     {
       title: "Frivillig videoproducer",
@@ -1163,6 +1245,7 @@ export async function jobListingSeed() {
       jobCategoryId: 7,
       regionId: 4,
       workTypeId: 3,
+      createdAt: "2026-09-02T19:31:11.286+00:00",
     },
     {
       title: "Frivillig kommunikationskoordinator",
@@ -1177,6 +1260,7 @@ export async function jobListingSeed() {
       jobCategoryId: 7,
       regionId: 1,
       workTypeId: 3,
+      createdAt: "2026-08-28T22:00:27.280+00:00",
     },
     {
       title: "Frivillig grafisk kommunikationshjælper",
@@ -1191,6 +1275,7 @@ export async function jobListingSeed() {
       jobCategoryId: 7,
       regionId: 2,
       workTypeId: 3,
+      createdAt: "2026-08-12T17:44:40.101+00:00",
     },
     {
       title: "Frivillig interviewskribent",
@@ -1205,6 +1290,7 @@ export async function jobListingSeed() {
       jobCategoryId: 7,
       regionId: 4,
       workTypeId: 3,
+      createdAt: "2026-05-24T05:15:15.065+00:00",
     },
     {
       title: "Frivillig kampagnemedarbejder",
@@ -1219,6 +1305,7 @@ export async function jobListingSeed() {
       jobCategoryId: 7,
       regionId: 5,
       workTypeId: 1,
+      createdAt: "2026-05-12T11:52:44.740+00:00",
     },
     {
       title: "Frivillig kommunikationsfotograf",
@@ -1233,6 +1320,7 @@ export async function jobListingSeed() {
       jobCategoryId: 7,
       regionId: 6,
       workTypeId: 3,
+      createdAt: "2026-08-02T10:44:58.163+00:00",
     },
     {
       title: "Frivillig administrativ assistent",
@@ -1247,6 +1335,7 @@ export async function jobListingSeed() {
       jobCategoryId: 8,
       regionId: 5,
       workTypeId: 1,
+      createdAt: "2026-06-24T07:22:03.548+00:00",
     },
     {
       title: "Frivillig kontormedhjælper",
@@ -1261,6 +1350,7 @@ export async function jobListingSeed() {
       jobCategoryId: 8,
       regionId: 2,
       workTypeId: 1,
+      createdAt: "2026-08-14T14:40:54.411+00:00",
     },
     {
       title: "Frivillig kalenderkoordinator",
@@ -1275,6 +1365,7 @@ export async function jobListingSeed() {
       jobCategoryId: 8,
       regionId: 1,
       workTypeId: 3,
+      createdAt: "2026-06-13T22:22:32.268+00:00",
     },
     {
       title: "Frivillig medlemsadministrator",
@@ -1289,6 +1380,7 @@ export async function jobListingSeed() {
       jobCategoryId: 8,
       regionId: 4,
       workTypeId: 1,
+      createdAt: "2026-07-07T21:19:10.652+00:00",
     },
     {
       title: "Frivillig mødekoordinator",
@@ -1303,6 +1395,7 @@ export async function jobListingSeed() {
       jobCategoryId: 8,
       regionId: 3,
       workTypeId: 3,
+      createdAt: "2026-08-07T01:19:14.941+00:00",
     },
     {
       title: "Frivillig økonomimedhjælper",
@@ -1317,6 +1410,7 @@ export async function jobListingSeed() {
       jobCategoryId: 8,
       regionId: 2,
       workTypeId: 1,
+      createdAt: "2026-07-22T16:40:56.164+00:00",
     },
     {
       title: "Frivillig receptionist",
@@ -1331,6 +1425,7 @@ export async function jobListingSeed() {
       jobCategoryId: 8,
       regionId: 4,
       workTypeId: 1,
+      createdAt: "2026-08-31T12:03:50.636+00:00",
     },
     {
       title: "Frivillig dokumentationsassistent",
@@ -1345,6 +1440,7 @@ export async function jobListingSeed() {
       jobCategoryId: 8,
       regionId: 5,
       workTypeId: 3,
+      createdAt: "2026-03-19T20:52:21.388+00:00",
     },
     {
       title: "Frivillig bookingkoordinator",
@@ -1359,6 +1455,7 @@ export async function jobListingSeed() {
       jobCategoryId: 8,
       regionId: 2,
       workTypeId: 3,
+      createdAt: "2026-06-12T06:42:31.138+00:00",
     },
     {
       title: "Frivillig dataregistrator",
@@ -1373,6 +1470,7 @@ export async function jobListingSeed() {
       jobCategoryId: 8,
       regionId: 5,
       workTypeId: 3,
+      createdAt: "2026-08-10T20:09:12.319+00:00",
     },
     {
       title: "Frivillig sekretær for forening",
@@ -1387,6 +1485,7 @@ export async function jobListingSeed() {
       jobCategoryId: 8,
       regionId: 6,
       workTypeId: 1,
+      createdAt: "2026-06-24T07:00:24.604+00:00",
     },
     {
       title: "Frivillig HR-assistent",
@@ -1401,6 +1500,7 @@ export async function jobListingSeed() {
       jobCategoryId: 8,
       regionId: 5,
       workTypeId: 3,
+      createdAt: "2026-07-11T22:05:07.057+00:00",
     },
     {
       title: "Frivillig kontorvært",
@@ -1415,6 +1515,7 @@ export async function jobListingSeed() {
       jobCategoryId: 8,
       regionId: 2,
       workTypeId: 1,
+      createdAt: "2026-08-05T09:18:44.161+00:00",
     },
     {
       title: "Frivillig projektadministrativ hjælper",
@@ -1429,6 +1530,7 @@ export async function jobListingSeed() {
       jobCategoryId: 8,
       regionId: 1,
       workTypeId: 3,
+      createdAt: "2026-04-15T10:49:00.966+00:00",
     },
     {
       title: "Frivillig medlemsservice",
@@ -1443,6 +1545,7 @@ export async function jobListingSeed() {
       jobCategoryId: 8,
       regionId: 4,
       workTypeId: 1,
+      createdAt: "2026-05-26T22:25:03.019+00:00",
     },
     {
       title: "Frivillig regnskabsassistent",
@@ -1457,6 +1560,7 @@ export async function jobListingSeed() {
       jobCategoryId: 8,
       regionId: 3,
       workTypeId: 1,
+      createdAt: "2026-07-14T14:22:08.915+00:00",
     },
     {
       title: "Frivillig mødesekretær",
@@ -1471,6 +1575,7 @@ export async function jobListingSeed() {
       jobCategoryId: 8,
       regionId: 4,
       workTypeId: 3,
+      createdAt: "2026-03-17T04:18:57.853+00:00",
     },
     {
       title: "Frivillig kontorassistent på deltid",
@@ -1485,6 +1590,7 @@ export async function jobListingSeed() {
       jobCategoryId: 8,
       regionId: 2,
       workTypeId: 1,
+      createdAt: "2026-06-11T04:34:51.721+00:00",
     },
     {
       title: "Frivillig til dyreinternat",
@@ -1499,6 +1605,7 @@ export async function jobListingSeed() {
       jobCategoryId: 9,
       regionId: 5,
       workTypeId: 1,
+      createdAt: "2026-09-02T06:09:54.267+00:00",
     },
     {
       title: "Frivillig natur- og strandplejer",
@@ -1513,6 +1620,7 @@ export async function jobListingSeed() {
       jobCategoryId: 9,
       regionId: 6,
       workTypeId: 3,
+      createdAt: "2026-08-23T08:59:31.536+00:00",
     },
     {
       title: "Frivillig motionsmakker",
@@ -1527,6 +1635,7 @@ export async function jobListingSeed() {
       jobCategoryId: 9,
       regionId: 2,
       workTypeId: 3,
+      createdAt: "2026-04-14T18:48:56.014+00:00",
     },
     {
       title: "Frivillig lektiebuddy for familier",
@@ -1541,6 +1650,7 @@ export async function jobListingSeed() {
       jobCategoryId: 9,
       regionId: 1,
       workTypeId: 3,
+      createdAt: "2026-05-19T14:26:17.999+00:00",
     },
     {
       title: "Frivillig indsamler til velgørenhed",
@@ -1555,6 +1665,7 @@ export async function jobListingSeed() {
       jobCategoryId: 9,
       regionId: 4,
       workTypeId: 3,
+      createdAt: "2026-03-23T05:56:25.373+00:00",
     },
     {
       title: "Frivillig eventhjælper",
@@ -1569,6 +1680,7 @@ export async function jobListingSeed() {
       jobCategoryId: 9,
       regionId: 5,
       workTypeId: 3,
+      createdAt: "2026-05-18T11:29:52.729+00:00",
     },
     {
       title: "Frivillig legetøjsværtsassistent",
@@ -1583,6 +1695,7 @@ export async function jobListingSeed() {
       jobCategoryId: 9,
       regionId: 3,
       workTypeId: 1,
+      createdAt: "2026-06-18T06:54:01.083+00:00",
     },
     {
       title: "Frivillig turleder",
@@ -1597,6 +1710,7 @@ export async function jobListingSeed() {
       jobCategoryId: 9,
       regionId: 4,
       workTypeId: 3,
+      createdAt: "2026-04-25T16:44:51.926+00:00",
     },
     {
       title: "Frivillig fællesskabsvært",
@@ -1611,6 +1725,7 @@ export async function jobListingSeed() {
       jobCategoryId: 9,
       regionId: 2,
       workTypeId: 1,
+      createdAt: "2026-04-22T12:37:11.056+00:00",
     },
     {
       title: "Frivillig støtteperson ved fritidsaktiviteter",
@@ -1625,6 +1740,7 @@ export async function jobListingSeed() {
       jobCategoryId: 9,
       regionId: 1,
       workTypeId: 3,
+      createdAt: "2026-04-15T20:38:15.306+00:00",
     },
     {
       title: "Frivillig naturguide",
@@ -1639,6 +1755,7 @@ export async function jobListingSeed() {
       jobCategoryId: 9,
       regionId: 2,
       workTypeId: 3,
+      createdAt: "2026-07-17T17:37:35.530+00:00",
     },
     {
       title: "Frivillig hjælper på social campingtur",
@@ -1653,6 +1770,7 @@ export async function jobListingSeed() {
       jobCategoryId: 9,
       regionId: 5,
       workTypeId: 3,
+      createdAt: "2026-03-12T23:35:52.423+00:00",
     },
     {
       title: "Frivillig bogindsamler",
@@ -1667,6 +1785,7 @@ export async function jobListingSeed() {
       jobCategoryId: 9,
       regionId: 4,
       workTypeId: 1,
+      createdAt: "2026-03-22T10:26:51.691+00:00",
     },
     {
       title: "Frivillig besøgsven for unge",
@@ -1681,6 +1800,7 @@ export async function jobListingSeed() {
       jobCategoryId: 9,
       regionId: 1,
       workTypeId: 3,
+      createdAt: "2026-07-11T03:04:00.562+00:00",
     },
     {
       title: "Frivillig miljøambassadør",
@@ -1695,6 +1815,7 @@ export async function jobListingSeed() {
       jobCategoryId: 9,
       regionId: 5,
       workTypeId: 3,
+      createdAt: "2026-06-13T15:08:09.315+00:00",
     },
     {
       title: "Frivillig fællesspisningsvært",
@@ -1709,6 +1830,7 @@ export async function jobListingSeed() {
       jobCategoryId: 9,
       regionId: 2,
       workTypeId: 1,
+      createdAt: "2026-05-23T23:11:55.667+00:00",
     },
     {
       title: "Frivillig udflugtsassistent",
@@ -1723,6 +1845,7 @@ export async function jobListingSeed() {
       jobCategoryId: 9,
       regionId: 4,
       workTypeId: 3,
+      createdAt: "2026-03-23T00:29:47.025+00:00",
     },
   ];
 
