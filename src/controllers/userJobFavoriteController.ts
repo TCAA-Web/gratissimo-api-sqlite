@@ -6,6 +6,7 @@ import { AppError } from "../utils/AppError";
 export class UserJobFavoriteController {
   getAllUserJobFavorites = async (req: Request, res: Response) => {
     const user = req.user ?? null;
+    console.log(user);
     if (!user) {
       throw new AppError(404, "No user found");
     }
@@ -44,8 +45,15 @@ export class UserJobFavoriteController {
   };
 
   createUserJobFavorite = async (req: Request, res: Response) => {
+    const user = req.user;
     const data = { ...req.body };
-    const userId = parseInt(data?.userId);
+    if (!user) {
+      throw new AppError(
+        500,
+        "User not found - make sure you sent the bearer token",
+      );
+    }
+    const userId = user.id;
     const jobListingId = parseInt(data.jobListingId);
     const item = await prisma.userJobFavorite.create({
       data: { userId, jobListingId },
